@@ -1,0 +1,241 @@
+
+/* General */
+
+html{
+    font-size: 16px;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: "Inter", sans-serif;
+    background-color: #FFF8F0;
+    font-weight: 400;
+    line-height: 24px;
+    color: #331E6A;
+}
+
+
+h1{
+    font-family: "League Spartan";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 50px;
+    color: #190D37;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-family: League Spartan;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    color: black;
+    max-width: 700px;
+    margin: 8px auto;
+}
+
+.small_title{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #2858FF;
+    text-align: center;
+    margin-top: 96px;
+}
+
+.small_title_section{
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.section_description{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #331E6A;
+    text-decoration: underline;
+
+}
+
+
+
+/* HERO */
+
+#hero{
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+#hero_text{
+    width: 50%;
+    padding: 0 20px 32px 20px;
+}
+
+#contact{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    margin-top: 32px;
+    color: black;
+}
+
+#hi{
+    margin-top: 52px;
+}
+
+#hero_image{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#photo{
+    object-fit: cover;
+    min-height: 300px;
+    min-width: 300px;
+}
+
+#me_contacter{
+    width: 138px;
+    height: 44px;
+    border-radius: 4px;
+    background-color: #2F2F2F;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 32px;
+}
+
+#me_contacter:hover{
+    color: black;
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
+
+/* WHAT I DO */
+
+#what_i_do{
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+#experience_boxes{
+    display: flex;
+    margin: 10px auto;
+}
+
+.boxes{
+    padding: 20px;
+    margin: 0 10px;
+    background-color: white;
+    box-shadow: 6px 2px 25px -9px #0000001A;
+}
+
+.box_title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    margin: 20px 20px 0 20px;
+}
+
+.box_content{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #55206D;
+}
+
+/* MY Projects */
+
+#my_projects{
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+
+.project{
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.project_image{
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px 0 20px;
+    min-height: 160px;
+    min-width: 160px;
+}
+
+#project_image{
+    height: 140px;
+    width: 100%;
+    max-width: 180px;
+    max-height: auto;
+    margin: auto auto;
+    border-radius: 5px;
+}
+
+
+.project_texte{
+    width: 90%; 
+}
+
+.project_title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #291854;
+    text-align: left;
+}
+
+.project_text{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #55206D;
+    text-align: left;
+}
+
+.project_link{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    color: #6A87A3;
+    text-align: left;
+    margin-top: 8px;
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
