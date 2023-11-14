@@ -1,9 +1,87 @@
+/* Format smartphone */
+@media screen and (max-width:576px)
+{
+    html{
+        font-size: 16px;
+        background-color: rgb(237, 230, 220);
+    }
+
+    .hero_contact{
+        padding: 12px;
+    }
+
+    .hero_content{
+        padding: 5px;
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    .hero_text{
+        padding: 5px;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: center;
+
+
+        flex: 1;
+    }
+
+
+
+    .hero_name{
+ 
+    }
+
+    .hero_title{
+        text-align: center;
+    }
+
+    .hero_image{
+        flex: 1;
+    }
+
+    #hero_image{
+        width: 100%;
+        border: solid black;
+    }
+
+
+
+    .hero_content_2{
+        padding: 5px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+
+    }
+
+
+    .hero_presentation{
+        text-align: center;
+    }
+
+    .hero_button{
+        text-align: center;
+
+        margin: 10px 0;
+
+    }
+
+
+
+
+
+
+
+}
+
 
 /* General */
-
-html{
-    font-size: 16px;
-}
+/*
 
 body{
     margin: 0 auto;
@@ -70,7 +148,7 @@ a:hover{
 
 
 /* HERO */
-
+/*
 #hero{
     display: flex;
     max-width: 1440px;
@@ -128,7 +206,7 @@ a:hover{
 }
 
 /* WHAT I DO */
-
+/*
 #what_i_do{
     text-align: center;
     align-items: center;
@@ -165,7 +243,7 @@ a:hover{
 }
 
 /* MY Projects */
-
+/*
 #my_projects{
     text-align: center;
     align-items: center;
@@ -231,7 +309,7 @@ a:hover{
 }
 
 /* FOOTER */
-
+/*
 .footer{
     background-color: black;
     width: 100%;
