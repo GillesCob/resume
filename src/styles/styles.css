@@ -1,5 +1,8 @@
-/* Format smartphone */
-@media screen and (max-width:500px)
+
+/* ---------- 300 à 576px ---------- */
+/* ---------- Smartphone ---------- */
+
+@media screen and (min-width:300px)
 {
     html{
         font-size: 16px;
@@ -8,39 +11,47 @@
 
     .hero_contact{
         padding: 12px;
+        display: none;
     }
 
     .hero_content_1{
         padding: 5px;
-
         display: flex;
-        flex-direction: row;
     }
 
-    /*1*/
+
     .hero_text{
         padding: 5px;
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+
         flex: 1;
+        
+        flex-wrap: wrap;
+        justify-content: center;
+
+        text-align: center;
+
     }
 
     .hero_name{
         font-weight: 800;
         font-size: 1.2rem;
-        margin-bottom: 20px;
+
+        margin-top: 25px;
     }
 
 
     .hero_title{
-        text-align: center;
         font-weight: 700;
         font-size: 1.75rem;
+
     }
 
-     /*2*/
+    .hero_presentation_2{
+        display: none;
+    }
+
+
     .hero_image{
         flex: 1;
     }
@@ -50,18 +61,11 @@
         border: solid black;
     }
 
-    .hero_content_2{
-        padding: 5px;
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-        background-color: aqua;
-    }
 
-     /*3*/
-    .hero_presentation{
-        text-align: center;
+    .hero_presentation_1{
         margin-top: 20px;
+        display: block;
+        text-align: center;
     }
 
     .hero_button{
@@ -70,12 +74,32 @@
         margin: 20px 0;
     }
 
-
 }
 
 
+/* ---------- 576 à 768px ---------- */
+/* ---------- Mobile ---------- */
+
+@media screen and (min-width: 576px)
+    {
+    .hero_presentation_2{
+        display: block;
+
+        margin-top: 20px;
+
+        font-size: 1.2rem;
+    }
+
+    .hero_presentation_1{
+        display: none;
+    }
+
+    .hero_title{
+        margin-top: -20px;
+    }
 
 
+}
 
 /* General */
 /*
